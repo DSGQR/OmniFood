@@ -109,28 +109,19 @@ h2:after {
   margin-bottom: 10px;
 }
 
-/* JONAS Code For .icon-small */
-  /* display: inline-block;
+.icon-small {
+  display: inline-block;
   width: 30px;
   text-align: center;
   color: #e67e22;
   font-size: 120%;
-  margin-right: 10px; */
-/* Note: His Did Not Work For Me */
-
-.icon-small {
-  color: #e67e22;
-  display: inline-block;
-  float: left;
-  margin-right: 15px;
-  margin-left: 5px;
-  font-size: 120%;
-
-  /* Secret To Align Text & Icons */
+  margin-right: 10px;
   line-height: 120%;
   vertical-align: middle;
-  margin-top: -3px;
+  margin-top: -5px;
 }
+
+
 
 /* ===== LINKS ===== */
 
@@ -360,21 +351,14 @@ header {
 /* CITY LOCATIONS */
 /* ========================================================== */
 
-.city-photo {
+.box img {
   width: 100%;
   height: auto;
-  margin: 0;
-  margin-bottom: 20px;
-  overflow: hidden;
-  background-color: #000;
+  margin-bottom: 15px;
 }
 
-.section-cities h3 {
-  margin-bottom: 20px;
-}
-
-.section-cities p {
-  margin-bottom: 10px;
+.city-feature {
+  margin-bottom: 5px;
 }
 
 /* ========================================================== */
