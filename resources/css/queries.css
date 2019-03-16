@@ -109,7 +109,15 @@
 }
 
 /* iPhone 5/SE Models  */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 320px) {
+  body { font-size: 14px; }
+  section { padding: 20px 0; }
+  h1 { font-size: 170%; }
+  h2 { font-size: 140%; }
+  .btn-full:link,
+  .btn-full:visited {
+    margin-right: 10px
+  }
   .btn-app img {
     height: 40px;
     margin-right: 16px;
@@ -119,7 +127,7 @@
     font-size: 70%;
   }
   .footer-nav {
-    margin-left: 2px;
+    margin-left: 17px;
   }
   .social-links {
     margin-left: 80px;
